@@ -1,0 +1,60 @@
+// // Định nghĩa các biến màu sắc
+// $primary-color: #1976d2; // Màu chính
+// $secondary-color: #424242; // Màu phụ
+// $background-color: #f4f6f8; // Màu nền
+// $text-color: #333; // Màu chữ
+
+// // Kiểu dáng cho toàn bộ Admin Dashboard
+// .admin-dashboard {
+//   background-color: $background-color;
+//   color: $text-color;
+//   font-family: 'Roboto', sans-serif;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+
+//   // Header
+//   &__header {
+//     background-color: $primary-color;
+//     color: #fff;
+//     padding: 1rem;
+//     text-align: center;
+//     font-size: 1.5rem;
+//     font-weight: bold;
+//   }
+
+//   // Sidebar
+//   &__sidebar {
+//     background-color: $secondary-color;
+//     color: #fff;
+//     width: 250px;
+//     padding: 1rem;
+//     flex-shrink: 0;
+
+//     ul {
+//       list-style: none;
+//       padding: 0;
+
+//       li {
+//         margin: 0.5rem 0;
+//         a {
+//           color: #fff;
+//           text-decoration: none;
+
+//           &:hover {
+//             text-decoration: underline;
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   // Content
+//   &__content {
+//     flex-grow: 1;
+//     padding: 2rem;
+//     background-color: #fff;
+//     border-radius: 8px;
+//     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+//   }
+// }
